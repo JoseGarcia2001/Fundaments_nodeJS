@@ -13,7 +13,7 @@ function Mayus () {
 
 util.inherits(Mayus, Transform)
 
-Mayus.prototype._transform = function (chunk, codif, cb) {
+Mayus.prototype._transform =  function (chunk, codif, cb) {
   chunkMayus = chunk.toString().toUpperCase();
   this.push(chunkMayus);
   cb();

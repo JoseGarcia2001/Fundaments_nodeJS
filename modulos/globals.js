@@ -16,3 +16,7 @@ let interval = setInterval(function () {
 console.log(process);
 console.log(__dirname);
 console.log(__filename);
+
+global.saludo = 'holaa'
+
+console.log(saludo);

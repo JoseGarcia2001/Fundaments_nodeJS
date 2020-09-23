@@ -4,6 +4,7 @@ const router = (req, res) => {
 
   switch (req.url) {
     case '/Hola':
+      console.log(req.url);
       res.write('Holi :D')
       res.end();
       break;
