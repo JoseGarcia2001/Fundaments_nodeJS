@@ -4,7 +4,7 @@ let bufferHola = Buffer.from('Holi')
 
 console.log(buffer);
 console.log(bufferLlenos);
-console.log(bufferHola.toString());
+console.log(bufferHola);
 
 let abc = Buffer.alloc(26);
 
